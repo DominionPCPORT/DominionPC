@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#game-container {
+    width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background: #f9f9f9;
+}
+
+.card {
+    border: 1px solid #000;
+    padding: 10px;
+    margin: 5px;
+    display: inline-block;
+    width: 100px;
+    height: 150px;
+    text-align: center;
+}
+
+.hand, .deck, .play-area, .supply {
+    margin-top: 20px;
+}
+
+.supply .card {
+    cursor: pointer;
+}
+
+#redraw-button {
+    margin: 20px auto;
+    display: block;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+#end-turn-button {
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    padding: 15px 20px; /* Padding around text */
+    font-size: 16px; /* Font size */
+    border: none; /* No border */
+    cursor: pointer; /* Cursor style on hover */
+    border-radius: 5px; /* Rounded corners */
+    margin-bottom: 10px; /* Bottom margin */
+}
+
+#end-turn-button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
